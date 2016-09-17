@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.generalassembly.bridge.BridgeActivity">
+
+    <Button
+        android:id="@+id/twitterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:onClick="twitterClick"
+        android:background="#1dcaff"
+        />
+
+    <Button
+        android:id="@+id/linkedInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn"
+        android:onClick="linkedInClick"
+        android:background="#0077b5"
+        />
+
+    <Button
+        android:id="@+id/instagramButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:onClick="instagramClick"
+        android:background="#bc2a8d"
+        />
+
+    <Button
+        android:id="@+id/snapchatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snapchat"
+        android:onClick="snapchatClick"
+        android:background="#fffc00"
+        />
+
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:background="#3b5998"
+        android:onClick="facebookClick"
+        />
+
+</LinearLayout>
